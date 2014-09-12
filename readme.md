@@ -3,6 +3,8 @@ iOS-WebView-App
 
 Simple iOS app that loads a web page created to ease debugging a `uiWebView`. 
 
+Unfortunately you cannot directly debug [Chrome on iOS](https://developer.chrome.com/multidevice/ios/overview) as debugging hooks are not available in published apps. This is the next best thing. If your issue reproduces the same in Mobile Safari, you can debug there. It's easier.
+
 You'll need to [install XCode][3].
 
 1. "Download Zip" or clone this project
@@ -28,4 +30,4 @@ You'll need to [install XCode][3].
   [7]: http://i.stack.imgur.com/5YUnq.png
 
 
-Directions above are from http://stackoverflow.com/a/25817651/89484
+Directions above are from http://stackoverflow.com/a/25817718/89484
