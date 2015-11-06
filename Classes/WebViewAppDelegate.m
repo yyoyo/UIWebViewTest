@@ -30,8 +30,8 @@
 	[navigationController pushViewController:webViewController animated:NO];
 	[webViewController release];
 	
-	[self.window addSubview:navigationController.view];
-	
+    [self.window setRootViewController:navigationController];
+    
     [self.window makeKeyAndVisible];
     
     return YES;
