@@ -18,13 +18,13 @@
 
 - (void)loadView
 {	
-	UIView *contentView = [[UIView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];	
+	UIView *contentView = [[UIView alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 	contentView.autoresizesSubviews = YES;
 	self.view = contentView;	
 	[contentView release];
 	
     //set the web frame size
-    CGRect webFrame = [[UIScreen mainScreen] applicationFrame];
+    CGRect webFrame = [[UIScreen mainScreen] bounds];
     webFrame.origin.y = 0;
 	
     //add the web view
