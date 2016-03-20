@@ -1,6 +1,17 @@
 iOS-WebView-App
 ===============
 
+------------------------------------------
+## Out of date
+
+This repo is a bit old, so you'll want a more recent webview app to use in XCode. Perhaps [geocolumbus/wkwebview](https://github.com/geocolumbus/wkwebview) or [coffellas-cto/GDWebViewController](https://github.com/coffellas-cto/GDWebViewController) may work well. (Currently untested by me.)
+
+Pull requests to update this repo/readme very welcome.
+
+-------------------------------------
+
+-------------------------------------
+
 Simple iOS app that loads a web page created to ease debugging a `uiWebView`. 
 
 Unfortunately you cannot directly debug [Chrome on iOS](https://developer.chrome.com/multidevice/ios/overview) as debugging hooks are not available in published apps. This is the next best thing. If your issue reproduces the same in Mobile Safari, you can debug there. It's easier.
